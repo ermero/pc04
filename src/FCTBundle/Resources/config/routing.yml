@@ -1,0 +1,12 @@
+FCT_homepage:
+    path:     /
+    defaults: { _controller: LandingBundle:Default:index }
+FCT_empresa_new:
+    path:     /empresa/new
+    defaults: { _controller: FCTBundle:Empresa:new }
+FCT_empresa_all:
+    path:     /empresa/all
+    defaults: { _controller: FCTBundle:Empresa:all }
+FCT_alumno_all: 
+    path:     /alumno/all
+    defaults: { _controller: FCTBundle:Alumno:all }
